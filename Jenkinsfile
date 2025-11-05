@@ -23,7 +23,7 @@ pipeline {
                     echo "Running lint"
                     sh 'npm run lint'
 
-                    echo "Building frontend now"
+                    echo "Building frontend"
                     sh 'npm run build'
                 }
             }
